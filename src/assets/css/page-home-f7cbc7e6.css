@@ -31622,14 +31622,13 @@ table[data-v-c375424d] {
     display: -webkit-flex;
     display: flex;
     min-height: 2.66667rem;
-    background: url(/assets/png/bj-750595ba1.png) no-repeat center/100%;
+    background: url(/assets/png/hi1.png) no-repeat center/100%;
     padding: .21333rem 0 0 .13333rem;
-    margin-top: .26667rem
+    margin-bottom: .26667rem
 }
 .daman-dragon-image[data-v-b9924d0b] {
     width: 2.4rem;
-    height: 1.97333rem;
-    background: url(/assets/png/order1.png) no-repeat center/100%;
+    height: 1.97333rem
 }
 
 .daman-dragon-right[data-v-b9924d0b] {
@@ -31669,57 +31668,4 @@ table[data-v-c375424d] {
     font-size: .34667rem;
     font-weight: 700;
     line-height: .66667rem
-}
-  .userDetail[data-v-be467d1a] {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: .28rem;
-    -webkit-box-orient: initial;
-    -webkit-box-direction: initial;
-    -webkit-flex-direction: initial;
-    flex-direction: initial;
-    width: 100%;
-    margin-top: .26667rem
-}
-
- .userDetail>div[data-v-be467d1a] {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-    gap: .13333rem
-}
-
- .userDetail>div .imgD[data-v-be467d1a] {
-    width: 1.30667rem;
-    height: 1.30667rem;
-    border-radius: .4rem;
-    background: url(/assets/png/boxBg-16aa52fd.png) no-repeat center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    margin-bottom: .13333rem
-}
-
-.userDetail>div .imgD img[data-v-be467d1a] {
-    width: .85333rem;
-    height: auto
-}
- .userDetail>div span[data-v-be467d1a] {
-    font-size: .32rem
 }

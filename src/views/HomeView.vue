@@ -67,6 +67,25 @@
                 </defs>
             </svg>Notification</button>
     </div>
+    <div data-v-b9924d0b="" data-v-c67ad2ea="" class="daman-dragon">
+    <div data-v-b9924d0b="" class="daman-dragon-image"></div>
+    
+        <div data-v-b9924d0b="" class="daman-dragon-right">
+            <h3 data-v-b9924d0b="">TAKE ORDERS</h3>
+            <p data-v-b9924d0b=""></p>
+            <div data-v-b9924d0b="" class="daman-dragon-btn">TAKE NOW</div>
+        </div>
+    </div>
+    <div data-v-be467d1a="" class="userDetail">
+    <div data-v-be467d1a="">
+        <div data-v-be467d1a="" class="imgD"><img data-v-be467d1a="" src="/assets/png/rechargeIcon-a37f0b23.png">
+        </div><span data-v-be467d1a="">Recharge</span>
+    </div>
+    <div data-v-be467d1a="">
+        <div data-v-be467d1a="" class="imgD"><img data-v-be467d1a="" src="/assets/png/widthdrawBlue-52d9a5cc.png">
+        </div><span data-v-be467d1a="">Withdraw</span>
+    </div>
+</div>
     <div data-v-8a12c4a7="" class="gamesList__container-title">VIP</div>
     <div data-v-d0c02615="" class="vip-content">
     <vip-page></vip-page>
@@ -108,7 +127,7 @@
 </div>
 </template>
 <style>
-@import url();
+
 </style>
 <script>
 import NavbarPage from '@/components/NavbarPage.vue';
