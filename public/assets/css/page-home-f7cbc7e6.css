@@ -689,8 +689,8 @@
 }
 
 .my-swipe[data-v-08a831c1] {
-    width: 9.36rem;
-    height: 4.26667rem;
+    width: 100%;
+    height: auto;
     box-sizing: border-box
 }
 
@@ -1196,8 +1196,8 @@
 }
 
 .allGame .item[data-v-a72d6040],.allGame .item .gameImg[data-v-a72d6040] {
-    width: 3rem;
-    height: 3rem
+    width: 100%;
+    height: auto
 }
 
 [data-v-1e84708b]:root {

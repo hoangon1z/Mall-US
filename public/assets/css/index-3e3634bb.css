@@ -13,7 +13,7 @@
 }
 
 #app {
-    width: 10rem;
+    width: 20rem;
     height: -webkit-fit-content;
     height: fit-content;
     min-height: 100vh
@@ -96,7 +96,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     align-items: flex-end;
-    width: 10rem;
+    width: 20rem;
     -webkit-transform: translateX(-50%);
     transform: translate(-50%);
     height: 1.73333rem;
@@ -1410,7 +1410,7 @@ textarea {
     position: fixed;
     top: 0;
     left: 50%;
-    width: 10rem;
+    width: 20rem;
     -webkit-transform: translateX(-50%);
     transform: translate(-50%);
     -webkit-user-select: none;

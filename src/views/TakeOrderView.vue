@@ -2,7 +2,7 @@
 
 <div class="mp4">
   <navbar-page></navbar-page>
-  <video autoplay playsinline loop muted width="400" height="240" class="videomp4">
+  <video autoplay playsinline loop muted class="videomp4">
     <source src="/assets/mp4/IMG_1404.mp4" type="video/mp4">
     Trình duyệt của bạn không hỗ trợ thẻ video.
   </video>
@@ -116,10 +116,14 @@ export default {
 <style scoped>
 @media screen and (max-width: 500px) {
   .videomp4 {
-    width: 100%; /* Đặt chiều rộng video thành 100% của container */
-    height: auto; /* Điều chỉnh chiều cao tự động dựa trên tỷ lệ của video */
+    width: 100%;
+    height: auto;
   }
 }
+  .videomp4 {
+    width: 100%;
+    height: auto;
+  }
 .box-order {
   border: 1px solid #e5e5e5;
   width: 90%;
@@ -159,27 +163,24 @@ export default {
 }
 .grid-temple {
     padding: 0px 0 0;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-lines: multiple;
-    -moz-box-lines: multiple;
-    box-lines: multiple;
-    -ms-flex-wrap: wrap;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
-    -webkit-box-align: stretch;
+    grid-gap: .21333rem;
     box-align: stretch;
-    -moz-align-items: stretch;
-    -ms-align-items: stretch;
-    -o-align-items: stretch;
     align-items: stretch;
-    -ms-flex-align: stretch
+}
+@media screen and (max-width: 1024px) {
+ .grid-temple {
+    grid-template-columns: repeat(1, 1fr);
+ }
+    
+    
 }
  .card__tile--single {
-    width: calc(33.33333% - -212px);
+    width: 100%;
     float: left;
-    margin-left: 30px;
     margin-bottom: 30px
 }
 @media screen and (max-width: 1024px) {
@@ -188,6 +189,7 @@ export default {
         float: left;
         margin-left: 30px
     }
+    
 }
 @media screen and (max-width: 768px) {
     .card__tile--double .card__tile--details {
@@ -196,6 +198,9 @@ export default {
 }
 .card__tile {
   position: relative;
+  height: 100%;
+  width: auto;
+  padding: 20px;
 }
 .bg--white {
   background-color: #fff;
