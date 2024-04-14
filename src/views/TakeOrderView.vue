@@ -9,25 +9,25 @@
   <div class="box-order">
     <div class="order-box-item">
       <div class="item-number">
-        <div class="item-number-price">Số Dư Tài Khoản (USD)</div>
+        <div class="item-number-price">Account Balance (USD)</div>
         <div class="item-number-price">0</div>
       </div>
       <div class="item-number">
-        <div class="item-number-price">Số Lượng Đơn</div>
+        <div class="item-number-price">Order Taken</div>
         <div class="item-number-price">0</div>
       </div>
       <div class="item-number">
-        <div class="item-number-price">Hoa Hồng Nhận</div>
+        <div class="item-number-price">Grand Commission</div>
         <div class="item-number-price">0</div>
       </div>
       <div class="item-number">
-        <div class="item-number-price">Số Dư Đóng Băng</div>
+        <div class="item-number-price">Frozen Balance</div>
         <div class="item-number-price">0</div>
       </div>
     </div>
   </div>
   <div class="order-box-item" style="border-bottom:none">
-      <div class="item-button" id="autoStart">ĐƠN HÀNG TRONG NGÀY</div>
+      <div class="item-button" id="autoStart">TAKE ORDERS</div>
   </div>
   <div data-v-8a12c4a7="" class="gamesList__container-title">TRIP-PLANNING TIPS
   </div>

@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Nếu yêu cầu không phải là một tệp thực tế
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # Và không phải là một thư mục
+  RewriteCond %{REQUEST_FILENAME} !-d
+  # Thì chuyển hướng tất cả các yêu cầu đến index.html
+  RewriteRule ^ index.html [L]
+</IfModule>

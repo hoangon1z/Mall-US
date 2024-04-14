@@ -7,7 +7,7 @@
             </svg>
             <!----><span data-v-2023d0f1="">Home</span>
         </div>
-        <div data-v-2023d0f1="" @click="navigateTo('/his-order')" :class="{'tabbar__container-item': true, active: isActive('/his-order')}">
+        <div data-v-2023d0f1="" @click="navigateTo('/history')" :class="{'tabbar__container-item': true, active: isActive('/his-order')}">
             <svg data-v-2023d0f1="" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 46 44" class="">
                 <path fill="#949494" fill-rule="evenodd" d="M10.512 5.2h26.975a4.8 4.8 0 0 1 4.796 4.6l.51 12.2h3.203L45.48 9.666A8 8 0 0 0 37.489 2H10.511A8 8 0 0 0 2.52 9.666l-1.17 28A8 8 0 0 0 9.34 46h29.317a8 8 0 0 0 7.993-8.334L46.331 30h-3.203l.326 7.8a4.8 4.8 0 0 1-4.796 5H9.341a4.8 4.8 0 0 1-4.795-5l1.17-28a4.8 4.8 0 0 1 4.796-4.6" clip-rule="evenodd"></path>
                 <path fill="#949494" fill-rule="evenodd" d="M13.92 16.64c.466 5.158 4.8 9.2 10.08 9.2 5.279 0 9.614-4.042 10.078-9.2h-3.522a6.621 6.621 0 0 1-13.113 0z" clip-rule="evenodd"></path>
@@ -173,7 +173,9 @@ c-9 -9 -28 6 -21 18 4 6 10 6 17 -1 6 -6 8 -13 4 -17z m54 3 c-13 -13 -26 -3
 export default {
     methods: {
         navigateTo(route) {
-            this.$router.push(route);
+            if (this.$route.path !== route) {
+                this.$router.push(route);
+            }
         },
         isActive(route) {
             return this.$route.path === route;

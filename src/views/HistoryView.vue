@@ -1,20 +1,20 @@
 <template>
-  <div>
-    <service-page></service-page>
-    <navbar-page></navbar-page>
-    <footer-page></footer-page>
-  </div>
+    <div class="record-order">
+        <navbar-page></navbar-page>
+        <hisor-page></hisor-page>
+        <footer-page></footer-page>
+    </div>    
 </template>
 <script>
-import ServicePage from '@/components/ServicePage.vue';
+import HisOrderPage from '@/components/HisOrderPage.vue';
 import NavbarPage from '@/components/NavbarPage.vue';
 import FooterBar from '@/components/FooterBar.vue';
 export default {
   name: 'ServiceView',
   components: {
-    'service-page': ServicePage,
     'navbar-page': NavbarPage,
     'footer-page': FooterBar,
+    'hisor-page': HisOrderPage,
   }
 }
 </script>

@@ -1,0 +1,28 @@
+{
+    "message": {
+        "take": "TAKE ORDERS",
+        "take1": "TAKE NOW",
+        "re": "Recharge",
+        "wi": "Withdraw",
+        "un": "Not Unlock",
+        "ho1": "Need to upgrage to VIP1 level",
+        "ho2": "Need to upgrage to VIP2 level",
+        "ho3": "Need to upgrage to VIP3 level",
+        "ho4": "Need to upgrage to VIP4 level",
+        "ho5": "Need to upgrage to VIP5 level",
+        "ho6": "Need to upgrage to VIP6 level",
+        "ho7": "Need to upgrage to VIP7 level",
+        "ho8": "Need to upgrage to VIP8 level",
+        "do1": "Commission rate 0.08% | 50 order",
+        "do2": "Commission rate 0.08% | 50 order",
+        "do3": "Commission rate 0.08% | 50 order",
+        "do4": "Commission rate 0.08% | 50 order",
+        "do5": "Commission rate 0.08% | 50 order",
+        "do6": "Commission rate 0.08% | 50 order",
+        "do7": "Commission rate 0.08% | 50 order",
+        "do8": "Commission rate 0.08% | 50 order",
+        "li": "LIST PRODUCT",
+        "no":"Notification"
+
+    }
+}

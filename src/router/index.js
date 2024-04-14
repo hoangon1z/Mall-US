@@ -6,6 +6,10 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/',
+    redirect: '/login' // Thêm dòng này để tự động chuyển hướng đến /home
+  },
+  {
     path: '/home',
     name: 'home',
     component: HomeView
@@ -14,7 +18,32 @@ const routes = [
     path: '/order',
     name: 'order',
     component: () => import('../views/TakeOrderView.vue')
-  }
+  },
+  {
+    path: '/history',
+    name: 'history',
+    component: () => import('../views/HistoryView.vue')
+  },
+  {
+    path: '/service',
+    name: 'service',
+    component: () => import('../views/ServiceView.vue')
+  },
+  {
+    path: '/account',
+    name: 'account',
+    component: () => import('../views/AccountView.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/LoginView.vue')
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: () => import('../views/RegisterView.vue')
+  },
 ]
 
 const router = new VueRouter({
