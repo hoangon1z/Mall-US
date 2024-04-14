@@ -89,39 +89,6 @@
     <div data-v-8a12c4a7="" class="gamesList__container-title">VIP</div>
     <div data-v-d0c02615="" class="vip-content">
     <vip-page></vip-page>
-    <div data-v-8a12c4a7="" class="gamesList__container-title">LIST PRODUCT</div>
-    <div data-v-a72d6040="" data-v-8383c55d="" class="onlineGamesItem__container allGame">
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="bed1.webp" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="/assets/png/bed2.webp" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-    <div data-v-a72d6040="" class="item"><img data-v-a72d6040="" class="gameImg" data-origin="" src="/assets/png/be4.png">
-    </div>
-</div>
 </div>
 <footer-page></footer-page>
 </div>

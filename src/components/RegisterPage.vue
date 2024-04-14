@@ -40,12 +40,6 @@
                     <input data-v-84551eea="" type="text" ref="invite" auto-complete="new-password" autocomplete="off" name="userNumber"  placeholder="Please enter invitation code" maxlength="20">
                 </div>
             </div>
-            <div data-v-84551eea="" class="register__container-remember">
-                <div data-v-84551eea="" role="checkbox" class="van-checkbox" tabindex="0" aria-checked="false">
-                    <div class="van-checkbox__icon van-checkbox__icon--round"><i class="van-badge__wrapper van-icon van-icon-success"><!----><!----><!----></i>
-                    </div><span class="van-checkbox__label">I know and agree <span data-v-84551eea="">【“Account opening agreement”】</span>Treaties</span>
-                </div>
-            </div>
             <div data-v-84551eea="" class="register__container-button">
                 <button data-v-84551eea="" @click="register">Sign Up</button>
                 <button data-v-84551eea="" class="login" @click="$router.push('/login')">
@@ -60,41 +54,58 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
-    methods: {
-        async register() {
-            let username = this.$refs.username.value.trim();
-            let password = this.$refs.password.value.trim();
-            let invite = this.$refs.invite.value.trim();
-            if (status) {
-                this.$refs.overlay.style.display = 'block';
-                try {
-                    let response = await this.$http.post('/api/webapi/register', {
-                        username: username,
-                        pwd: password,
-                        invitecode: invite,
-                        // otp: otp,
-                    });
-                    if (response.data.status === true) {
-                        this.$refs.overlay.style.display = 'none';
-                        this.$refs.loading.style.display = 'block';
-                        setTimeout(() => {
-                            this.$refs.loading.style.display = 'none';
-                            this.alertMess(response.data.message);
-                        }, 100);
-                        setTimeout(() => {
-                            this.$router.push('/login');
-                        }, 900);
-                    } else {
-                        this.$refs.overlay.style.display = 'none';
-                        this.alertMess(response.data.message);
-                    }
-                } catch (error) {
-                    this.$refs.overlay.style.display = 'none';
-                    this.alertMess('Có lỗi xảy ra');
-                }
-            }
-        },
-    }
-}
+  data() {
+    return {
+      username: '',
+      password: '',
+      confirmPassword: '',
+      inviteCode: '',
+      error: null,
+    };
+  },
+  methods: {
+    async register() {
+      if (!this.username || !this.password || !this.confirmPassword || !this.inviteCode) {
+        this.showErrorToast("Please enter complete information");
+        return;
+      }
+      if (this.password !== this.confirmPassword) {
+        this.showErrorToast("Passwords do not match");
+        return;
+      }
+      try {
+        const response = await axios.post('/api/webapi/register', {
+          username: this.username,
+          pwd: this.password,
+          invitecode: this.inviteCode,
+        });
+
+        if (response.data.status === true) {
+          // Assuming the API returns some user data on successful registration
+          this.$store.commit('login', response.data.user);
+          this.$router.push('/login'); // Redirect to login page or home page as per your flow
+        } else {
+          this.error = response.data.message;
+          this.showErrorToast(this.error);
+        }
+      } catch (error) {
+        this.error = 'An error occurred. Please try again later.';
+        this.showErrorToast(this.error);
+      }
+    },
+    showErrorToast(message) {
+      const toast = document.querySelector('.van-toast');
+      if (toast) {
+        toast.style.display = 'block';
+        document.querySelector('.van-toast__text').textContent = message;
+        setTimeout(() => {
+          toast.style.display = 'none';
+        }, 3000); // Hide after 3 seconds
+      }
+    },
+  },
+};
 </script>

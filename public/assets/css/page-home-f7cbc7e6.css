@@ -1192,19 +1192,49 @@
 }
 
 .allGame[data-v-a72d6040] {
-    grid-template-columns: repeat(3,1fr)
+    grid-template-columns: repeat(2,1fr)
 }
 
 .allGame .item[data-v-a72d6040],.allGame .item .gameImg[data-v-a72d6040] {
     width: 100%;
-    height: auto
+    height: 2.5rem
 }
 
+.allGame .item[data-v-a72d6040],.allGame .item .gameImg.level1[data-v-a72d6040] {
+    background: url(/assets/png/bg1-7ff97a99.png) no-repeat center,linear-gradient(117.29deg,#a6b7d0 21.85%,#889ebe 67.02%);
+}
+.allGame .item[data-v-a72d6040],.allGame .item .gameImg.level2[data-v-a72d6040] {
+    background: url(/assets/png/bg2-ee7fbf5e.png) no-repeat center,linear-gradient(117.29deg,#f8bd83 21.85%,#e2984e 67.02%)
+}
+.allGame .item[data-v-a72d6040],.allGame .item .gameImg.level3[data-v-a72d6040] {
+    background: url(/assets/png/bg3-96f1cdae.png) no-repeat center,linear-gradient(117.29deg,#ffa493 21.85%,#ff7878 67.02%)
+
+}
+.allGame .item[data-v-a72d6040],.allGame .item .gameImg.level4[data-v-a72d6040] {
+    background: url(/assets/png/bg4-c3caf0f8.png) no-repeat center,linear-gradient(117.29deg,#78dbeb 21.85%,#48c7f0 67.02%)
+
+}
+.allGame .item[data-v-a72d6040],.allGame .item .gameImg.level5[data-v-a72d6040] {
+    background: url(/assets/png/bg5-e2132369.png) no-repeat center,linear-gradient(117.29deg,#df91fb 21.85%,#ef82d5 67.02%)
+
+}
+.allGame .item[data-v-a72d6040],.allGame .item .gameImg.level6[data-v-a72d6040] {
+    background: url(/assets/png/bg6-8b5d1b4f.png) no-repeat center,linear-gradient(117.29deg,#61dca6 21.85%,#21be95 67.02%)
+
+}
+.allGame .item[data-v-a72d6040],.allGame .item .gameImg.level7[data-v-a72d6040] {
+    background: url(/assets/png/bg7-535312da.png) no-repeat center,linear-gradient(117.29deg,#57b733 21.85%,#229b5f 67.02%)
+
+}
+.allGame .item[data-v-a72d6040],.allGame .item .gameImg.level8[data-v-a72d6040] {
+    background: url(/assets/png/bg8-8bdc102c.png) no-repeat center,linear-gradient(117.29deg,#54baf1 21.85%,#3d77e8 67.02%)
+
+}
 [data-v-1e84708b]:root {
     --van-primary-color: #7ddced;
     --van-picker-confirm-action-color: #4781ff
 }
-
+/*url(/assets/png/bg5-e2132369.png) no-repeat center,linear-gradient(117.29deg,#df91fb 21.85%,#ef82d5 67.02%)*/
 .van-toast[data-v-1e84708b] {
     word-break: break-word!important
 }
@@ -31621,6 +31651,7 @@ table[data-v-c375424d] {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
+    border-radius: 10px;
     min-height: 2.66667rem;
     background: url(/assets/png/bj-750595ba1.png) no-repeat center/100%;
     padding: .21333rem 0 0 .13333rem;

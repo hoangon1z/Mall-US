@@ -11,7 +11,8 @@
                 </div>
                 <div data-v-d354f453="" class="userInfo__container-content-uid"><span data-v-d354f453="">UID</span><span data-v-d354f453="">|</span><span data-v-d354f453="">HOANGIT</span><img data-v-d354f453="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAG1BMVEUAAAD////////////////////////////////rTT7CAAAACHRSTlMAf2/fzyAQv1i/o5gAAABWSURBVBjTY0AHSYJgoApis1p0gEFzApDD1AKR8VAAchgbIaolBIA6xNvBOkAchA4gB6EDyEHooBOn0EMBweloDkCSUUP2ALrX2GBeCADJB0Fk1NCDCQANHCEHp1BAOwAAAABJRU5ErkJggg==">
                 </div>
-                <div data-v-d354f453="" class="userInfo__container-content-logintime"><span data-v-d354f453="">Last login:&nbsp;</span><span data-v-d354f453="">2024-04-14 00:50:23</span>
+                
+                <div data-v-d354f453="" class="userInfo__container-content-logintime"><span data-v-d354f453="">Invite Code:&nbsp;</span><span data-v-d354f453=""></span>
                 </div>
                 <div data-v-d354f453="" class="userInfo__container-content-logintime" style="display: none;"><span data-v-d354f453="">&nbsp;</span>
                 </div>

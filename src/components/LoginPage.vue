@@ -6,7 +6,7 @@
                 <div data-v-5f6a9e3a="" class="phoneInput__container-label"><img data-v-5f6a9e3a="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAM1BMVEUAAABIgP9Hf/9HgP9If/9If/9Hf/9GgP9Hf/9Kgf9GgP9Hgf9Kf/9Qhv9HgP9HgP9Hgf8yzScUAAAAEHRSTlMAmXO/YEBOf1Yej98wE6+P35gKawAAAHZJREFUSMft0EsOgCAMRdECyh91/6t1RDSN8OpITLjDpmfyaOiC1418oYes6mTRPxZFgQIDHgHPgEZATzDBBH8Cr7MLaGXAHCDzKTB1mU0G1HVVInBbXItAWms2jbKSCOwIRAYyAoFYrv/viLDg/7wQTaOYaeRObJUeiXwXMZUAAAAASUVORK5CYII=" class="phoneInput__container-label__icon"><span data-v-5f6a9e3a="">Username or number phone</span>
                 </div>
                 <div data-v-5f6a9e3a="" class="phoneInput__container-input">
-                    <input v-model="username" type="text" name="userNumber" placeholder="Please enter username or number phone">
+                    <input data-v-5f6a9e3a="" v-model="username" type="text" name="userNumber" placeholder="Please enter username or number phone">
 
                 </div>
             </div>
@@ -14,7 +14,7 @@
                 <div data-v-2c10910c="" class="passwordInput__container-label"><img data-v-2c10910c="" class="passwordInput__container-label__icon" data-origin="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAARVBMVEUAAABIgP9Gf/9GgP9Hgf9HgP9HgP9Hgf9Hgf9If/9Gf/9JgP9Hf/9Hgf9Hgf9Hgf9HgP9Ggf9Ggf9Hf/9McP9HgP9Hgf8A23ijAAAAFnRSTlMAmSGDj3FB7985TBMQr6G/X89pVgq/Au04/QAAAS5JREFUSMfdlNkWgyAMRFkSkIK4lv//1CLt0cpWeO28iblMchgg/ym2rRwopRw31lAugH6JK1KXxlAHnCOHN6Kr9dyXoNKfL4UHsVeA2f9nt3n8Dmtl3LQDDZSymkEypKhZAOXJ2g4U9nJHa8a23JOiVGQO5uoz1sPvld3m0QWwMrD1AnM3YK1giZTNAwIW6QqSixWx7+R+aLhnbHCuixhdg6YvA9ekaw7eBlzJTCaWgGiTucYTWKI/YLLGwwnI1DpHyBO4rz+PY0RUaa8FQBwx9No81wQYomnQTkwTcAQ0iBHS6LC/Ad3oIMLdC7dgLgBpZtQ6H1kb8kD/OcQhsCHJBqLlpZLuicMky1lC1yQ8AdMGsM4bZ8kl03unCbO/6kcTPzQ4lh4mOYzIyB/pBbdnSf64MvFTAAAAAElFTkSuQmCC" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAARVBMVEUAAABIgP9Gf/9GgP9Hgf9HgP9HgP9Hgf9Hgf9If/9Gf/9JgP9Hf/9Hgf9Hgf9Hgf9HgP9Ggf9Ggf9Hf/9McP9HgP9Hgf8A23ijAAAAFnRSTlMAmSGDj3FB7985TBMQr6G/X89pVgq/Au04/QAAAS5JREFUSMfdlNkWgyAMRFkSkIK4lv//1CLt0cpWeO28iblMchgg/ym2rRwopRw31lAugH6JK1KXxlAHnCOHN6Kr9dyXoNKfL4UHsVeA2f9nt3n8Dmtl3LQDDZSymkEypKhZAOXJ2g4U9nJHa8a23JOiVGQO5uoz1sPvld3m0QWwMrD1AnM3YK1giZTNAwIW6QqSixWx7+R+aLhnbHCuixhdg6YvA9ekaw7eBlzJTCaWgGiTucYTWKI/YLLGwwnI1DpHyBO4rz+PY0RUaa8FQBwx9No81wQYomnQTkwTcAQ0iBHS6LC/Ad3oIMLdC7dgLgBpZtQ6H1kb8kD/OcQhsCHJBqLlpZLuicMky1lC1yQ8AdMGsM4bZ8kl03unCbO/6kcTPzQ4lh4mOYzIyB/pBbdnSf64MvFTAAAAAElFTkSuQmCC"><span data-v-2c10910c="">Password</span>
                 </div>
                 <div data-v-2c10910c="" class="passwordInput__container-input">
-                    <input v-model="password" type="password" placeholder="Please enter password" maxlength="32" autocomplete="new-password"><img data-v-2c10910c="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAP1BMVEUAAADExMTExMTDw8PExMTFxcXFxcXExMS/v7/FxcXFxcXExMTExMTDw8PExMTFxcXFxcXExMTPz8+/v7/ExMTkagEbAAAAFHRSTlMAIO/ff29fvxDfMD/PoI+fr1AQMBwdwB4AAAFQSURBVDjL5ZJbkoQgDEXDI4iAqN3sf61DIEFHqmvmv/OhEE5ycwvgm0Il+z9uLQU/HJ0OrTvD4IqdoZdbdOHQh+sczphlSmKlvZu4uPZG2bkqfnDRzFlKL/FKuM9cig+/OoLCmcs8Au7ZqUDcG4IW00OGE2Fh040D/G1baeFO8mDo07gmpdUAa5djVGQPgej3OFtuwqZX7U3o1C0RmjevL+/rWLZqVzqnyV0bc70atgVJInPUaR/ip5TkATrmIBYBd3Gq6pGSVWpc18mPY9jYGKk0jgeP0nCjPxtDTgpnZXDkjGy0kgv3AK+4FG6opMmQXJVwob8wK0/jgCu8qWS+c/oU7hJumUqyrl2MOdDLzd85maVs/p6iQScOMnG1HcYXANlBwsriH9zWua2NZ4zmR8l+Jy6Ycotk/czJfQU8kqmRdgwwhU9y7X+F3yx8VfwAZv4b1F/KTEQAAAAASUVORK5CYII=" class="eye">
+                    <input data-v-2c10910c="" v-model="password" type="password" placeholder="Please enter password" maxlength="32" autocomplete="new-password"><img data-v-2c10910c="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAP1BMVEUAAADExMTExMTDw8PExMTFxcXFxcXExMS/v7/FxcXFxcXExMTExMTDw8PExMTFxcXFxcXExMTPz8+/v7/ExMTkagEbAAAAFHRSTlMAIO/ff29fvxDfMD/PoI+fr1AQMBwdwB4AAAFQSURBVDjL5ZJbkoQgDEXDI4iAqN3sf61DIEFHqmvmv/OhEE5ycwvgm0Il+z9uLQU/HJ0OrTvD4IqdoZdbdOHQh+sczphlSmKlvZu4uPZG2bkqfnDRzFlKL/FKuM9cig+/OoLCmcs8Au7ZqUDcG4IW00OGE2Fh040D/G1baeFO8mDo07gmpdUAa5djVGQPgej3OFtuwqZX7U3o1C0RmjevL+/rWLZqVzqnyV0bc70atgVJInPUaR/ip5TkATrmIBYBd3Gq6pGSVWpc18mPY9jYGKk0jgeP0nCjPxtDTgpnZXDkjGy0kgv3AK+4FG6opMmQXJVwob8wK0/jgCu8qWS+c/oU7hJumUqyrl2MOdDLzd85maVs/p6iQScOMnG1HcYXANlBwsriH9zWua2NZ4zmR8l+Jy6Ycotk/czJfQU8kqmRdgwwhU9y7X+F3yx8VfwAZv4b1F/KTEQAAAAASUVORK5CYII=" class="eye">
                 </div>
             </div>
             <div data-v-b677e826="" class="signIn__container-button">
@@ -22,10 +22,6 @@
                 <button data-v-b677e826="" class="register" @click="$router.push('/register')">Sign Up</button>
             </div>
             <div data-v-b677e826="" class="signIn_footer">
-                <div data-v-b677e826="" class="forgetcon">
-                    <div data-v-b677e826="" class="forgetbg"></div>
-                    <div data-v-b677e826="" class="font24">Forgot Password</div>
-                </div>
                 <div data-v-b677e826="" class="customcon">
                     <div data-v-b677e826="" class="custombg"></div>
                     <div data-v-b677e826="" class="font24">Custome Service</div>
@@ -135,6 +131,11 @@ export default {
   },
   methods: {
     async login() {
+      if (!this.username || !this.password) {
+        // Show the dialog with the message
+        this.showErrorToast("Please enter complete information");
+        return;
+      }
       try {
         const response = await axios.post('/api/webapi/login', {
           username: this.username,
@@ -155,11 +156,15 @@ export default {
         this.error = 'An error occurred. Please try again later.';
       }
     },
-    setCookie(cname, cvalue, exdays) {
-      const d = new Date();
-      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-      let expires = "expires=" + d.toUTCString();
-      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    showErrorToast(message) {
+      const toast = document.querySelector('.van-toast');
+      if (toast) {
+        toast.style.display = 'block';
+        document.querySelector('.van-toast__text').textContent = message;
+        setTimeout(() => {
+          toast.style.display = 'none';
+        }, 3000); // Hide after 3 seconds
+      }
     },
   },
 };
